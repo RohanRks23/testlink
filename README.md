@@ -168,6 +168,7 @@ Server environment should consist of:
     - The `log_bin_trust_function_creators` option must be enabled.
   - Postgres 9.x
   - MS-SQL 201x -> SUPPORT IS INCOMPLETE
+  - Make sure you change the "sql_mode" from "NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION" to "NO_ENGINE_SUBSTITUTION" in "~\testlink\mysql\bin\my.ini"
 
 Tested on web-browsers:
 - Firefox
